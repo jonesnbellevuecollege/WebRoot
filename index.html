@@ -21,52 +21,61 @@
 <!-- Below is an Internal style that places a border around divs.  USE BORDERS DURING DEVELOPMENT TO SEE WHAT IS GOING ON
 TURN BORDERS OFF, TURN BORDERS OFF, REPEAT, TURN BORDERS OFF FOR PRODUCTION.  DO NOT LEAVE ANY UNSTYLED BORDERS TURNED ON WHEN YOU PUBLISH YOUR PAGE FOR PUBLIC ACCESS -->
     <style>
-        div {
-            border: solid;
+        /* div {
+             border: solid;
+            
+        } */
+        p {
+            color: rgb(91, 140, 196);
         }
-
         @media only screen and (min-width: 100px) {
             /* For tablets: */
 
-            /* this will change the container class background to red when tablet*/
+            /* this will change the container class background to yellow when tablet*/
 
             .col {
-                background-color: rgb(163, 64, 97);
+                background-color: rgb(221, 215, 97);
             }
         }
 
         @media only screen and (min-width: 768px) {
-            /* For desktop: will change the container class to orange*/
+            /* For desktop: will change the container class to salmon*/
 
             .col {
-                background-color: rgb(150, 47, 47);
+                background-color: rgb(228, 144, 144);
             }
         }
 
         @media only screen and (min-width: 992px) {
-            /* For desktop: will change the container class to orange*/
+            /* For desktop: will change the container class to peach*/
 
             .col {
-                background-color: #b1b128;
+                background-color: #f3d2a1;
             }
         }
 
         @media only screen and (min-width: 1200px) {
-            /* For desktop: will change the container class to orange*/
+            /* For desktop: will change the container class to beige*/
 
             .col {
-                background-color: rgb(46, 46, 167);
+                background-color: rgb(252, 249, 225);
             }
         }
 
-        Orientation of landscape
+        /*Orientation of landscape*/
 
         @media only screen and (orientation: landscape) {
-            /* this will change the background to light blue when view is landscape */
-            background-color: lightblue;
+            /* this will change the background to teal when view is landscape */
+            body{
+                background-color: rgb(58, 27, 27);
+            }
+            
         }
 
-        }
+        
+
+    
+
     </style>
 
 </head>
@@ -76,38 +85,40 @@ TURN BORDERS OFF, TURN BORDERS OFF, REPEAT, TURN BORDERS OFF FOR PRODUCTION.  DO
     <div class="container-fluid">
 
             <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-12">
-                <img src="images/jonesn_pic.jpg" style="float:left; height:50px; margin:0px;">
+                <img src="images/jonesn_pic.jpg" style="float:left; height:250px; margin:0px;">
                 <p>
-                    Nicholas Jones<br>
+                    <b>Nicholas Jones</b><br><br>
                     n.jones at bellevuecollege dot edu
                 </p>
             </div><!-- port 1-->
 
             <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-12">
                 <p>
-                    <span class="strong">Bio<br></span>I am an application development student at Bellevue college entering my third year. I started my programming journey in highschool using C++, then in college I started off with Java, followed by C# and JavaScript shortly after as part of my coursework. 
+                    <span class="strong"><b>Bio<br></b></span>I am an application development student at Bellevue college entering my third year. I started my programming journey in highschool using C++, then in college I started off with Java, followed by C# and JavaScript shortly after as part of my coursework. 
                 </p>
             </div> <!-- port 2-->
 
             <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-12 hidden-xs hidden-sm">
-                Education<br>
+                <p><b>Education</b><br>
                 2021 Everett Community College, AA
                 2026 Bellevue College, BAS
+            </p>
             </div> <!--land 3-->
 
             <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-12 hidden-xs hidden-sm">
-                Experience<br>
+                <p><b>Experience</b><br></p>
                 <p>
-                    The bulk of my experience has been in assisting with the planning, buildout, and support phases of my company's ETL pipeline for our most popular SaaS product. I deal with a significant volume of highly sensitive data as a key part of my role in facilitating it's migration from one integrated system into another, which means I have a trained eye for detail and a strong preference for perfection. Security is a big concern for me in the realm of technology, especially with the rise in AI tools. Technological security standards seem to be evolving everyday as a bare necessity to keep up with the advancements around AI use. This electronic "wild west" draws me to want to develop applications with a strong emphasis on security and user protection.
+                    The bulk of my experience has been in assisting with the planning, buildout, and support phases of my company's ETL pipeline for our most popular SaaS product. I deal with a significant volume of highly sensitive data as a key part of my role in facilitating it's migration from one integrated system into another, which means I have a trained eye for detail and a strong preference for perfection. Security is a big concern for me in the realm of technology, especially with the rise in AI tools. Technological security standards seem to be evolving everyday as a bare necessity to keep up with the advancements around AI use. This electronic "wild west" draws me to want to develop applications with a strong emphasis on security and user protection.</p>
             </div><!-- land 3-->
             <!--!div-->
 
 
             <div class="row-fluid">
-                /* <div class="col-sm-6 col-lg-6 hidden-sm hidden-md">
-                <a href="https://plduncanjr.github.io/WebRootArchive/html/MobileResources.html">Mobile Resources</a></div>
-                <div class="col-sm-6 col-lg-6 hidden-sm hidden-md">Web Resources</div> */
-            </div>
+                <div class="col-sm-6 col-lg-6 hidden-sm hidden-md">
+                    <a href="https://github.com/nickbjones21">Web Resources</a></div>
+                <div class="col-sm-6 col-lg-6 hidden-sm hidden-md">
+                    <a href="https://jonesnbellevuecollege.github.io/DEV320_View1/">Link Central</a></div>
+            </div></div>
             <!--!div-->
 
         </div>
